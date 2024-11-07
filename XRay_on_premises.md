@@ -1,4 +1,4 @@
-set up X-Ray daemon in a non-EKS Kubernetes environment and configure it with Istio for automatic instrumentation.
+#set up X-Ray daemon in a non-EKS Kubernetes environment and configure it with Istio for automatic instrumentation.
 
 
 
