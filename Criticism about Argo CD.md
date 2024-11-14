@@ -20,6 +20,8 @@ While Argo CD is a powerful and popular GitOps tool, it's not without its critic
 * **Exposure Risk:** If not configured properly, Argo CD can be exposed to security risks.
 * **Permissions and Access Control:** Managing permissions and access control can be complex, especially in large-scale environments.
 
-It's important to note that many of these issues can be mitigated through proper configuration, best practices, and community support. As Argo CD continues to evolve, the development team is actively working to address these concerns and improve the overall user experience. 
-
-Ultimately, the suitability of Argo CD for a specific use case depends on the team's expertise, the complexity of the deployment pipeline, and the organization's specific needs.
+**Others**
+* **Too many CRD:** Users can't see pods, instead of application. This changes the architechure that users are used to it.
+* **Multiple tentants are not necessary in most of enterprises:**
+* **Too fat:** Not just too complex.
+* **polls to github:** The interval is 3 minutes by using polls, not realtime, kind of slow.
