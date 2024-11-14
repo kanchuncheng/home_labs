@@ -21,7 +21,9 @@ While Argo CD is a powerful and popular GitOps tool, it's not without its critic
 * **Permissions and Access Control:** Managing permissions and access control can be complex, especially in large-scale environments.
 
 **Others**
-* **Too many CRD:** Users can't see pods, instead of application. This changes the architechure that users are used to it.
+* **Too many CRD:** Users can't see pods, instead of application. This changes the architechure that users are used to it in a native k8s.
 * **Multiple tentants are not necessary in most of enterprises:**
-* **Too fat:** Not just too complex.
-* **polls to github:** The interval is 3 minutes by using polls, not realtime, kind of slow.
+* **Too fat:** Not just too complex, especially which HA is used.
+* **Polls to github:** The interval is 3 minutes by using polls, not realtime, kind of slow.
+* **Canary deployment can be done by Ingress:**
+* **Blue/green, rolling update deployment can be done by Service:** This way is more intuitive and effective.
